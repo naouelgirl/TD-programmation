@@ -1,0 +1,22 @@
+footer{
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+body{
+    
+    
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 5px solid #6f6f6f;
+        color: blue;
+        height: 15%;
+        background: url(images/arriere.gif) ;
+    }

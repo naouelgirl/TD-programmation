@@ -1,0 +1,78 @@
+body .entete{
+    margin:center;
+    margin-right: 40px;
+    text-align: center;
+}
+body{
+    background: url(images/pommebleu.jpg) no-repeat center/cover fixed;
+}  
+img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 20%;
+    transition: 0.7s;
+}
+table{
+    height: 100px;
+    text-align: center;
+    width: 90%;
+   
+}
+table th{
+    background:linear-gradient(to left,
+    rgb(82, 216, 104),
+    rgb(248, 68, 14),
+    violet
+    
+   );
+   -webkit-background-clip:text
+   color: transparent;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+table caption{
+    color: rgb(97, 51, 226);
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    color: blue;
+    height: 15%;
+    background: url(images/arriere.gif) ;
+}
+
+nav .onglet{
+    margin-top: 5px;
+    margin-left: 300px;
+   ;
+}
+nav .onglet{
+    padding: 10px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+table td{
+    width: 10%;
+    height: 50%;
+    font-weight: bold;
+    
+}
+span{
+    font-weight: bold;
+    background:linear-gradient(to left,
+    rgb(248, 68, 14),
+    violet
+    
+   );
+   -webkit-background-clip:text
+   color: transparent;
+   
+}
+
